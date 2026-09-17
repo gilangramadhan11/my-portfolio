@@ -26,7 +26,7 @@ const projects: Project[] = [
     id: "2",
     title: "Inventory Management System",
     description: "Aplikasi pencatatan stok barang dengan fitur pelacakan barang masuk/keluar, dan dashboard analitik berbasis grafik.",
-    image: "/portfolio/inventory.png",
+    image: "/portfolio/inventory.PNG",
     techStack: ["Vue 3", "Tailwind CSS", "Supabase"],
     demoUrl: "https://e-commerce-pc-hardware.vercel.app/",
     githubUrl: "https://github.com",
