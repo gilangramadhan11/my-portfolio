@@ -15,22 +15,40 @@ interface Project {
 const projects: Project[] = [
   {
     id: "1",
-    title: "Football News Web Application",
-    description: "Platform berita sepak bola modern dengan manajemen artikel interaktif dan integrasi RESTful API.",
-    image: "/projects/football-news.jpg", // Simpan gambar di public/projects/
-    techStack: ["Next.js", "Laravel", "Tailwind CSS", "MySQL"],
-    demoUrl: "https://example.com",
-    githubUrl: "https://github.com",
+    title: "Admin Dashboard Football News",
+    description: "Dashboard manajemen konten untuk mengelola artikel berita sepak bola, kategori liga, serta integrasi API berita real-time.",
+    image: "/portfolio/admin_dashboard_football.png", 
+    techStack: ["Laravel", "Tailwind CSS", "MySQL"],
+    demoUrl: "https://footballnews-production.up.railway.app/",
+    githubUrl: "#",
   },
   {
     id: "2",
+    title: "Football News Web Application",
+    description: "Platform berita sepak bola modern dengan manajemen artikel interaktif dan integrasi RESTful API.",
+    image: "/portfolio/frontend_football.png", 
+    techStack: ["React", "Next.js", "Tailwind CSS", "Laravel API"],
+    demoUrl: "https://football-news-web-five.vercel.app/",
+    githubUrl: "#",
+  },
+  {
+    id: "3",
     title: "Inventory Management System",
     description: "Aplikasi pencatatan stok barang dengan fitur pelacakan barang masuk/keluar, dan dashboard analitik berbasis grafik.",
     image: "/portfolio/inventory.PNG",
     techStack: ["Vue 3", "Tailwind CSS", "Supabase"],
     demoUrl: "https://e-commerce-pc-hardware.vercel.app/",
-    githubUrl: "https://github.com",
+    githubUrl: "#",
   },
+  {
+  id: "4",
+  title: "Personal Portfolio Website",
+  description: "Website portofolio interaktif dan responsif yang dibangun untuk menampilkan profil, keahlian, dan hasil karya web development",
+  image: "/portfolio/portfolio.png",
+  techStack: ["React", "Next.js", "Tailwind CSS", "TypeScript"],
+  demoUrl: "https://my-portfolio-phi-drab-17.vercel.app/", 
+  githubUrl: "#",
+}
 ];
 
 export default function Portfolio() {
